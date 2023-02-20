@@ -11,6 +11,7 @@ const App = () => {
         <li>Java Script</li>
         <li>React</li>
       </ul>
+        <span>Haha i am span</span>
     </div>
   );
 }
