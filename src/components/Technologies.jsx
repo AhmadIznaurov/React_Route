@@ -8,6 +8,7 @@ const Technologies = () => {
                 <li>CSS</li>
                 <li>Java Script</li>
                 <li>React</li>
+                <li>Node JS</li>
             </ul>
         </div>
     )
