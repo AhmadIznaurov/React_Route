@@ -10,6 +10,7 @@ const App = () => {
         <li>CSS</li>
         <li>Java Script</li>
         <li>React</li>
+          <li>BootCamp</li>
       </ul>
     </div>
   );
