@@ -10,8 +10,6 @@ const App = () => {
         <li>CSS</li>
         <li>Java Script</li>
         <li>React</li>
-          <li>Node JS</li>
-          <li>Angular</li>
       </ul>
     </div>
   );
@@ -19,7 +17,7 @@ const App = () => {
 
 const Header = () => {
   return (
-      <div>It is possible to learn React more effectively </div>
+      <div>It is possible to learn React more effectively</div>
   )
 }
 
