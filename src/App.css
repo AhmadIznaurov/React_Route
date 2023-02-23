@@ -6,7 +6,8 @@
     grid-template-rows: 60px 1fr;
     grid-template-areas:
           "h h"
-          "n c";
+          "n c"
+          "f f";
     grid-gap: 10px;
 }
 
@@ -45,3 +46,15 @@
    width: 90%;
 }
 
+.footer {
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    grid-area: f;
+    background-color: teal;
+}
+
+.footer a {
+    text-decoration: none;
+    color: firebrick;
+}
