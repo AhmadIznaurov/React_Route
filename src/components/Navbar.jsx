@@ -1,16 +1,16 @@
 import React from "react";
-
+import N from "./Navbar.module.css";
+console.log(N);
 const Navbar = () => {
     return (
-        <nav className='nav'>
+        <nav className={N.nav}>
             <ul>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>News</li>
-                <li>Music</li>
-                <br /> <li>Settings</li>
+                <li><a href="#">Profile</a></li>
+                <li className={`${N.item} ${N.active}`}><a>Messages</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Music</a></li>
+                <br /> <li><a href="#">Settings</a></li>
             </ul>
-
         </nav>
     );
 }

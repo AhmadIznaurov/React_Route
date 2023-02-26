@@ -11,50 +11,7 @@
     grid-gap: 10px;
 }
 
-.header {
-    grid-area: h;
-    background-color: cadetblue;
-}
 
-.header img {
-    margin-top: -32px;
-    width: 60px;
-    border-radius: 70px;
-}
 
-.react {
-    text-align: center;
-    font-family: "Arial Narrow";
-    font-size: 28px;
-    color: darkgreen;
-}
 
-.nav {
-    grid-area: n;
-    background-color: darkgreen;
-}
-.nav ul {
-  list-style: none;
-}
 
-.content {
-    grid-area: c;
-    background-color: wheat;
-}
-
-.content img {
-   width: 90%;
-}
-
-.footer {
-    height: 70px;
-    display: flex;
-    justify-content: space-around;
-    grid-area: f;
-    background-color: teal;
-}
-
-.footer a {
-    text-decoration: none;
-    color: firebrick;
-}
